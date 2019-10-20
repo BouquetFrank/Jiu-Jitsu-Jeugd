@@ -1,12 +1,13 @@
 body {
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;
 }
 /* navigatie */
 #navigatiebalk {
 	position: fixed;
 	top: 0%;
 	width: 100%;
+	z-index: 10;
 }
 /* hamburger go away */
 #navigatiebalk label, #hamburger {
@@ -56,14 +57,11 @@ body {
 	#navigatiebalk ul li {
 		display: block;
 	}
-	#navigatiebalk ul li {
-		border-top: 1px solid #333;
-	}
 	#navigatiebalk ul {
 		display: none;
 	}
 	#navigatiebalk li {
-		margin-bottom: 25px;
+		margin-bottom: 5%;
 	}
 	#navigatiebalk input:checked ~ ul {
 		display: block;
@@ -73,7 +71,42 @@ body {
 
 
 
-/* HERO */
-#hero {
-	;
-}	
+.header-unit { 
+  position: relative;
+  padding: 25%;
+}
+#video-container {
+	position: absolute;
+}
+#video-container {
+	top:0%;
+	left:0%;
+	height:100%;
+	width:100%;
+	overflow: hidden;
+}
+video {
+	position:absolute;
+	z-index:0;
+}
+video.fillWidth {
+	width: 100%;
+}
+
+
+
+
+#hero-content {
+	z-index:1;
+	position: absolute;
+	text-align: center;
+}
+
+#hero-content h1 {
+	text-align: center;
+}
+
+#hero-content h2 {
+	text-align: center;
+}
+
