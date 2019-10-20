@@ -5,7 +5,7 @@ body {
 /* navigatie */
 #navigatiebalk {
 	position: fixed;
-	top: 0px;
+	top: 0%;
 	width: 100%;
 }
 /* hamburger go away */
@@ -15,15 +15,15 @@ body {
 /* menu li's */
 #navigatiebalk ul {
 	list-style-type: none;
-	margin: 0px;
-	padding: 0px;
+	margin: 0%;
+	padding: 0%;
 	overflow: hidden;
 	background-color: #333;
 }
 
 #navigatiebalk ul li {
 	display: inline-block;
-	padding: 10px;
+	padding: 1%;
 	box-sizing: border-box;
 }
 
@@ -31,7 +31,7 @@ body {
 	color: #fff;
 	text-decoration: none;
 	float: left;
-	margin: 20px;
+	margin: 0%;
 }
 
 #navigatiebalk ul li:hover {
@@ -45,7 +45,7 @@ body {
 		background: #333;
 		font-style: normal;
 		font-size: 2.2em;
-		padding: 10px;
+		padding: 1%;
 		width: 100%;
 	}
 	#navigatiebalk ul li a {
@@ -69,3 +69,11 @@ body {
 		display: block;
 	}
 }
+
+
+
+
+/* HERO */
+#hero {
+	;
+}	
