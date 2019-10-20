@@ -39,34 +39,7 @@ body {
 	background-color: #111;
 }
 
-@media screen and (max-width: 768px) {
-	#navigatiebalk label {
-		display: inline-block;
-		color: #fff;
-		background: #333;
-		font-style: normal;
-		font-size: 2.2em;
-		padding: 1%;
-		width: 100%;
-	}
-	#navigatiebalk ul li a {
-	color: #fff;
-	text-decoration: none;
-	float: none;
-}
-	#navigatiebalk ul li {
-		display: block;
-	}
-	#navigatiebalk ul {
-		display: none;
-	}
-	#navigatiebalk li {
-		margin-bottom: 5%;
-	}
-	#navigatiebalk input:checked ~ ul {
-		display: block;
-	}
-}
+
 
 
 
@@ -99,8 +72,44 @@ video.fillWidth {
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 11;
+  text-align: center;
 }
 
 
 
-
+@media screen and (max-width: 768px) {
+	#navigatiebalk label {
+		display: inline-block;
+		color: #fff;
+		background: #333;
+		font-style: normal;
+		font-size: 2.2em;
+		padding: 1%;
+		width: 100%;
+	}
+	#navigatiebalk ul li a {
+	color: #fff;
+	text-decoration: none;
+	float: none;
+}
+	#navigatiebalk ul li {
+		display: block;
+	}
+	#navigatiebalk ul {
+		display: none;
+	}
+	#navigatiebalk li {
+		margin-bottom: 5%;
+	}
+	#navigatiebalk input:checked ~ ul {
+		display: block;
+	}
+	.content {
+		  position: absolute;
+		  top: 15%;
+		  left: 50%;
+		  
+		  z-index: 11;
+		  text-align: center;
+	}
+}
