@@ -75,7 +75,29 @@ video.fillWidth {
   text-align: center;
 }
 
+/* MAIN CONTENT */
 
+#main {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-template-rows: 10vw 30vw 10vw;
+	grid-gap: 1em;
+	
+	margin: 0 auto;
+	width: 960px;
+}
+
+#header_main, #footer_main {
+	grid-column: 1 / span 5;
+}
+
+#article_main {
+	grid-column: 1 / span 3;
+}
+
+#aside_main {
+	grid-column: span 2;
+}
 
 @media screen and (max-width: 768px) {
 	#navigatiebalk label {
@@ -111,5 +133,8 @@ video.fillWidth {
 		  
 		  z-index: 11;
 		  text-align: center;
+	}
+	#article_main, #aside_main {
+		grid-column: 1 / span 5;
 	}
 }
