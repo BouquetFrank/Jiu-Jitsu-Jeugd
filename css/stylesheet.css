@@ -81,6 +81,9 @@ video.fillWidth {
 	font-size: 3.5em;
 }
 
+#wrapper_main {
+	background-color: #F5F5F5
+}
 
 #maincontent {
 	display: grid;
@@ -88,8 +91,7 @@ video.fillWidth {
 	grid-gap: 1em;
 	margin: 0 auto;
 	max-width: 56em;
-	padding: 1em 0;
-	
+	padding: 1em 0;	
 }
 
 #header_main, #footer_main {
@@ -106,7 +108,6 @@ video.fillWidth {
 }
 
 #header_main, #aside_main, #article_main, #footer_main {
-	background: #eaeaea;
 	display: inline;
 	
 }
@@ -114,12 +115,35 @@ video.fillWidth {
 #header_main {
 	align-items: center;
 	justify-content: center;
-	display: flex
+	display: flex;
+	background: #2699FB;
 }
 
 #header_main, #footer_main {
 	height: 10vw;;
 }
+
+#aside_main img {
+	max-width: 75%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 1%;
+}
+
+#footer_main {
+	background: #2699FB;
+}
+
+#article_main {
+	border-left: solid #2699FB 0.5em;
+}
+
+#aside_main {
+	border-right: solid #2699FB 0.5em;
+}
+
+
 
 @media screen and (max-width: 768px) {
 	#navigatiebalk label {
@@ -163,7 +187,7 @@ video.fillWidth {
 		grid-column: 1 / span 5;
 	}
 	.content {
-		position: fixed;
+		position: absolute;
 		top: 16%;
 		left: 50%;
 		z-index: 11;
