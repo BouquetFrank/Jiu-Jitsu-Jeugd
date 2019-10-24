@@ -25,7 +25,7 @@ body {
 	margin: 0%;
 	padding: 0%;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #2699FB;
 }
 
 #navigatiebalk ul li {
@@ -51,7 +51,25 @@ body {
 }
 
 
+/* HERO */
 
+.content h1, h2 {
+	text-shadow: 
+		-1px -1px 0 #000000,
+		1px -1px 0 #000000,
+		-1px 1px 0 #000000,
+		1px 1px 0 #000000;
+}
+
+.content h1 {
+	font-size: 4.5em;
+	color: #2699FB;
+}
+
+.content h2 {
+	font-size: 3.5em;
+	color: #FFFFFF;
+}
 
 
 .header-unit { 
@@ -179,6 +197,100 @@ video.fillWidth {
 	background-color: #AAAAAA;
 }
 
+
+/* Secondary CONTENT */
+
+.h2_header {
+	font-size: 3.5em;
+}
+
+#wrapper_secondary {
+	background-color: #F5F5F5
+}
+
+
+
+#secondarycontent {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-gap: 1em;
+	margin: 0 auto;
+	max-width: 56em;
+	padding: 1em 0;	
+}
+
+#header_secondary, #footer_secondary {
+	grid-column: 1 / span 5;
+}
+
+#article_secondary {
+	grid-column: 1 / span 3;
+}
+
+
+#aside_secondary {
+	grid-column: span 2;
+}
+
+#header_secondary, #aside_secondary, #article_secondary, #footer_secondary {
+	display: inline;
+	
+}
+
+#header_secondary {
+	align-items: center;
+	justify-content: center;
+	display: flex;
+	background: #2699FB;
+}
+
+#header_secondary {
+	height: 10vw;
+}
+
+#aside_secondary img {
+	max-width: 75%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	padding: 1%;
+}
+
+#footer_secondary {
+	background: #2699FB;
+	text-align: center;
+}
+
+
+
+#article_secondary {
+	border-left: solid #2699FB 0.5em;
+}
+
+#aside_secondary {
+	border-right: solid #2699FB 0.5em;
+}
+
+.buttoncta{
+	background-color: #FFFFFF;
+	border: none;
+	color: #2699FB;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	max-width: 20%;
+
+
+}
+
+.buttoncta:hover {
+	background-color: #AAAAAA;
+}
 @media screen and (max-width: 768px) {
 	#navigatiebalk label {
 		display: inline-block;
@@ -216,6 +328,7 @@ video.fillWidth {
 	#menu_text {
 		display: none;
 	}
+
 	
 }
 
@@ -223,11 +336,25 @@ video.fillWidth {
 	#article_main, #aside_main {
 		grid-column: 1 / span 5;
 	}
+	
+	#article_secondary {
+		grid-column: 1 / span 5;
+	}
+	#aside_secondary {
+		display: none;
+	}
 	.content {
 		position: absolute;
 		top: 16%;
 		left: 50%;
 		z-index: 11;
 		text-align: center;
+	}
+	.content h1 {
+		font-size: 2.5em;
+	}
+
+	.content h2 {
+		font-size: 1em;
 	}
 }
