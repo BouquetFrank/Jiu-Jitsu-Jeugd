@@ -205,7 +205,7 @@ video.fillWidth {
 }
 
 #wrapper_secondary {
-	background-color: #F5F5F5
+	background-color: #2699FB;
 }
 
 
@@ -221,6 +221,7 @@ video.fillWidth {
 
 #header_secondary, #footer_secondary {
 	grid-column: 1 / span 5;
+	
 }
 
 #article_secondary {
@@ -246,6 +247,7 @@ video.fillWidth {
 
 #header_secondary {
 	height: 10vw;
+	background-color: #FFFFFF;
 }
 
 #aside_secondary img {
@@ -257,7 +259,7 @@ video.fillWidth {
 }
 
 #footer_secondary {
-	background: #2699FB;
+	background-color: #FFFFFF;
 	text-align: center;
 }
 
@@ -269,6 +271,7 @@ video.fillWidth {
 
 #aside_secondary {
 	border-right: solid #2699FB 0.5em;
+	background-color: #FFFFFF;
 }
 
 .buttoncta{
