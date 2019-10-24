@@ -274,10 +274,10 @@ video.fillWidth {
 	background-color: #FFFFFF;
 }
 
-.buttoncta{
-	background-color: #FFFFFF;
+.buttoncta2{
+	background-color: #2699FB;
 	border: none;
-	color: #2699FB;
+	color: #FFFFFF;
 	padding: 16px 32px;
 	text-align: center;
 	text-decoration: none;
@@ -302,7 +302,7 @@ video.fillWidth {
 	color: #fff;
 	text-transform: uppercase;
 	text-decoration: none;
-	background: #ed3330;
+	background: #2699FB;
 	padding: 20px;
 	border-radius: 5px;
 	display: inline-block;
@@ -312,7 +312,7 @@ video.fillWidth {
 }
 
 #CTA:hover {
-	background: #434343;
+	background: #ed3330;
 	letter-spacing: 1px;
 	transition: all 0.4s ease 0s;
 }
@@ -360,6 +360,7 @@ input[type=submit] {
 /* FOOTER */
 .footerlist {
 	list-style-type: none;
+	margin-bottom: 5%;
 }
 
 /* COOKIES */
