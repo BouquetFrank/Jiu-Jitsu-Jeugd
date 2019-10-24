@@ -291,6 +291,13 @@ video.fillWidth {
 
 }
 
+/* FOOTER */
+.footerlist {
+	list-style-type: none;
+}
+
+/* COOKIES */
+
 #cookies {
 	background-color: rgba(20,20,20,0.8);
     min-height: 26px;
@@ -303,6 +310,19 @@ video.fillWidth {
     left: 0;
     right: 0;
     z-index: 9999;
+}
+
+.cookie {
+	background-color: #2699FB;
+	float: right;
+	border: none;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 1.2em;
+	margin-right: 5%;
+	cursor: pointer;
 }
 
 .buttoncta:hover {
@@ -373,5 +393,8 @@ video.fillWidth {
 
 	.content_hero h2 {
 		font-size: 1em;
+	}
+	.cookie {
+		display: none;
 	}
 }
