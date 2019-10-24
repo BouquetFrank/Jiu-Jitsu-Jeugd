@@ -288,6 +288,20 @@ video.fillWidth {
 
 }
 
+#cookies {
+	background-color: rgba(20,20,20,0.8);
+    min-height: 26px;
+    font-size: 14px;
+    color: #AAAAAA;
+    line-height: 26px;
+    padding: 0.1%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+}
+
 .buttoncta:hover {
 	background-color: #AAAAAA;
 }
