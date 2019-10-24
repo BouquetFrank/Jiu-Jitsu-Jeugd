@@ -85,6 +85,8 @@ video.fillWidth {
 	background-color: #F5F5F5
 }
 
+
+
 #maincontent {
 	display: grid;
 	grid-template-columns: auto auto;
@@ -133,6 +135,9 @@ video.fillWidth {
 
 #footer_main {
 	background: #2699FB;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #article_main {
@@ -143,7 +148,23 @@ video.fillWidth {
 	border-right: solid #2699FB 0.5em;
 }
 
+.button{
+	background-color: #FFFFFF;
+	border: none;
+	color: #2699FB;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
 
+.button:hover {
+	background-color: #AAAAAA;
+}
 
 @media screen and (max-width: 768px) {
 	#navigatiebalk label {
