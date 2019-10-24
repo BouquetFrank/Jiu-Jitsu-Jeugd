@@ -53,7 +53,7 @@ body {
 
 /* HERO */
 
-.content h1, h2 {
+.content_hero {
 	text-shadow: 
 		-1px -1px 0 #000000,
 		1px -1px 0 #000000,
@@ -61,12 +61,12 @@ body {
 		1px 1px 0 #000000;
 }
 
-.content h1 {
+.content_hero > h1 {
 	font-size: 4.5em;
 	color: #2699FB;
 }
 
-.content h2 {
+.content_hero > h2 {
 	font-size: 3.5em;
 	color: #FFFFFF;
 }
@@ -94,7 +94,7 @@ video.fillWidth {
 	width: 100%;
 }
 
-.content {
+.content_hero {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -343,18 +343,18 @@ video.fillWidth {
 	#aside_secondary {
 		display: none;
 	}
-	.content {
+	.content_hero {
 		position: absolute;
 		top: 16%;
 		left: 50%;
 		z-index: 11;
 		text-align: center;
 	}
-	.content h1 {
+	.content_hero h1 {
 		font-size: 2.5em;
 	}
 
-	.content h2 {
+	.content_hero h2 {
 		font-size: 1em;
 	}
 }
