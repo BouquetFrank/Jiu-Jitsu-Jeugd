@@ -162,12 +162,42 @@
 
 		<!-- BEGIN CONTACT -->
 		<section id="contactcontent">
-			<h2>Vraag? Stel 'm!</h2>
 			<form class="formulier" 
 				action="http://witan.nl/inholland/testform.php"
-				method="get"
+				method="post"
 			>
+				<fieldset id="ontvanger">
+					<legend>
+						Selecteer hier uw type bericht.
+					</legend>
+					<select name="ontvanger">
+						<option value="referral">BJJ-Jeugd</option>
+						<option value="vraag">Algemene vraag</option>
+					</select>
+				</fieldset>
+				
+				<fieldset id="wie">
+					<legend>
+					Wie ben je?
+					</legend>
+					<label for = "name">Naam</label>
+					<input id="name" type="text" value="Frank Bouquet" name="name">
+					<label for = "email">Email</label>
+					<input id="email" type="email" value="639507@student.inholland.nl" name="email">
+				</fieldset>
+				
+				<fieldset id="bericht">
+					<legend>
+					Je bericht
+					</legend>
+					<label for = "message">Bericht</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+				</fieldset>
+				<input type="submit">
+	
+				
 			
+			</form>
 		</section>
 		<!-- EIND CONTACT -->
 		<!-- FOOTER BEGIN -->

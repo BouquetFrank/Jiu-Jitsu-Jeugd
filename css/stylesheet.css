@@ -291,6 +291,48 @@ video.fillWidth {
 
 }
 
+/* CONTACT */
+#contactcontent {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	background-color: #2699FB;
+}
+
+input[type=text], select, textarea, input[type=email] {
+	display: inline-block;
+	border: 10% solid #ccc;
+	border-radius: 10%;
+	box-sizing: border-box;
+	color: #2699FB;
+}
+
+label {
+	color: #FFFFFF;
+}
+
+legend {
+	color: #FFFFFF;
+}
+
+
+
+fieldset {
+	background-color: #444444;
+}
+input[type=submit] {
+	background-color: #FFFFFF;
+	border: none;
+	color: #2699FB;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	max-width: 20%;
+	margin: 5%;
+}
+
+
+
 /* FOOTER */
 .footerlist {
 	list-style-type: none;
