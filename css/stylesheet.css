@@ -1,9 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
+@font-face {
+    font-family: 'GalaxyGirl';
+    src: url('../fonts/GalaxyGirl.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1, h2, h3, h4, h5, p {
 	font-family: "Roboto", "Arial", "Verdana", "sans-serif";
 }
 
+h1 {
+	font-family: 'GalaxyGirl';
+}
 body {
 	margin: 0%;
 	padding: 0%;
@@ -391,6 +401,9 @@ input[type=submit] {
 	.leading-bigtext {
 		font-size: 140px;
 	}
+	.leider-bigtext {
+		margin-right: 0px;
+	}
 
 }
 
@@ -419,7 +432,7 @@ input[type=submit] {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	padding: 10px;
+	padding: 0px;
 	color: #FFFFFF;
 }
 /* FOOTER */
